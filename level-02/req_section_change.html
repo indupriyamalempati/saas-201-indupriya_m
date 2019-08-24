@@ -1,102 +1,34 @@
 <html>
     <head>
-        <style>
-            body
-            {
-                background-image:url("back.jpg");
-                background-size:cover;
-                background-position:center;
-		color:black;
-            }
-            #m
-            {
-                margin-top:200px;
-                color:black;
-                margin-right:20px;
-                margin-left:25px;
-                margin-top:100px;
-                margin-bottom:10px;
-            }
-            #m1
-            {
-                 color:rgb(119, 92, 67);
-    
-            }
-            select 
-            {
-                width: 400px;
-                margin-left: 25px;
-            }
-           .in
-            {	
-                margin-left: 25px;
-            }
-            label
-		{	
-                margin-left: 25px;
-            }
-            #k
-            {	
-                background-color:orange;
-                margin-right:400px;
-                margin-left:400px;
-                border-radius:25px;
-            }
-            #ch
-            {
-                padding-left:5px;
-                padding-right:5px;
-                padding-top:5px;
-                padding-bottom:5px;
-                background-color:white;
-                margin-left:650px;
-                border-radius:5px;
-                text-decoration:none;
-                color:black;
-                margin-left:250px;
-            }
-            #ch1
-            {
-                border-radius:5px;
-                padding-left:5px;
-                padding-right:5px;
-                padding-top:5px;
-                padding-bottom:5px;
-                background-color:white;
-                margin-left:750px;
-                text-decoration:none;
-                color:black;
-            }
-        </style>
+		<link rel = "stylesheet" type = "text/css" href = "style_ed.css" />
     </head>
     <body>
-        <div id="k">
-        <h1 id="m">Request Section Change</h1>
-        <div id="m1">
-            <label class="in">Regno:</label>
-            <br>
-            <br>
-            <input class="in" placeholder="Enter regno" type="text"></input>
-            <br>
-            <br>
-            <label class="in">Select Section:</label>
-            <br>
-            <br>
+	<div id="a7">
+        <h2 class="a8" >REQUEST SECTION CHANGE</h2>
+       
+            <form action="#"> 
+                <div class="a9">
+            <label>Roll Number:</label>
+                </div>
+            <input placeholder="Enter regno" type="text"></input>
+            <div class="a9">
+            <label>Select Section:</label>
+            </div>
+   <div class="a10">
             <select>
-                    <option>A</option>
-                    <option>B</option>
-                    <option>C</option>
-                    <option>D</option>
-                    <option>E</option>
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                    <option value="C">C</option>
+                    
             </select>
-            <br>
-            <br>
-            <br>
-             <a id="ch" href="index.html">Go Back</a> &nbsp;
+        </div>
+            <input class="ipc1" type="submit" value="Request">
              &nbsp;
-             <a id="ch2" style =" text-decoration:none;border-radius:5px;color:black ;background-color:white;padding:5px;"href="index.html">Request</a>
-             <br><br>    
+             </form>
+             <a id="a1" href="index.html">Go Back</a>
+             </a>
+         
         </div>
-        </div>
+		</div>
     </body>
 </html>
