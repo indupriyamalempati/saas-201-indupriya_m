@@ -1,7 +1,7 @@
 class CreateSections < ActiveRecord::Migration[5.2]
   def change
     create_table :sections do |t|
-      t.String :name
+      t.string :name
 
       t.timestamps
     end
